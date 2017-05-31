@@ -48,7 +48,7 @@ Permissive
 Verify a container image can be run.
 
 ```
-sudo rkt run --insecure-option=image --interactive docker://alpine --exec /bin/sh
+sudo rkt run --insecure-options=image --interactive docker://alpine --exec /bin/sh
 ```
 
 ### Docker
